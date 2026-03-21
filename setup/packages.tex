@@ -57,6 +57,21 @@ twoside=false,
 \usepackage{lmodern}
 \usepackage[acronym,numberedsection]{glossaries}
 
+\lstset{
+    language=Python,
+    basicstyle=\ttfamily\footnotesize,   % font
+    keywordstyle=\color{blue}\bfseries,  % keywords like def, return
+    commentstyle=\color{gray}\itshape,   % comments
+    stringstyle=\color{orange},          % strings
+    numbers=left,                        % line numbers
+    numberstyle=\tiny\color{gray},       % line number style
+    stepnumber=1,                        % number every line
+    numbersep=5pt,
+    backgroundcolor=\color{gray!5},      % background color
+    frame=single,                        % box around code
+    breaklines=true,                      % wrap long lines
+    showstringspaces=false
+}
 
 \lstset{language=PHP, basicstyle = \footnotesize, commentstyle = \color{gray},
     keepspaces = true,
