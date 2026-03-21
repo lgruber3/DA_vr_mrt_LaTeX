@@ -1,36 +1,40 @@
-\section{Dokumentation {-} Erster Teil}
-\subsection{Testumgebung}
-Zum Implementieren und Testen der Programmfunktionen wurden folgende Programme und Technologien verwendet: (TODO:\@ANPASSEN)
-\begin{itemize}
-	\item Betriebssystem: Microsoft Windows 10	
-	\item XAMPP
-	\begin{itemize}
-		\item Datenbank: \Gls{mysql}
-		\item Webserver: Apache
-		\item Programmiersprache: \acrlong{php} 
-	\end{itemize}
-	\item Editor: Notepad++
-	\item Browser: Mozilla Firefox
-	\item \Gls{css} Framework: Bootstrap
-\end{itemize}
-MySQL ist zweitbeliebteste Datenbanksystem weltweit\@\cite{dbrankings} (Stand 04.03.2016) \ldots (Zitat-Beispiel, bitte entfernen)
-
-\acrshort{php} ist ein Akronym, das ursprünglich für Personal Home Page stand, heute aber ein rekursives Akronym ist, das für PHP:\@Hypertext\@Preprocessor steht. PHP ist eine beliebte Open-Source-Skriptsprache, die hauptsächlich für die Entwicklung dynamischer Webseiten und Anwendungen im Backend eingesetzt wird.
-
-\subsection{Unterkapitel mit Bild und Quellcode}
-\begin{figure}
-	\begin{center}
-	\includegraphics[width=0.2\textwidth]{content/img/3_prototype/Bild.png}
-	\caption{Wunderschönes aussagekräftiges Bild}		
-	\end{center}
-\end{figure}
+\section{Dokumentation der Implementierung}
+\subsection{Benutzerverwaltung}
+\subsubsection{Registrierung und Login}
 \ldots
-\lstinputlisting[caption={Testquellcode {-} PHP}\label{lst:Testquellcode - PHP},captionpos=b]{content/src/3_prototype/test.php}
-
-\begin{lstlisting} [caption={Noch ein Test}\label{lst:phptest},captionpos=b]
-<?php
-  echo "Noch ein Test"; // Comment
-?>
-\end{lstlisting}
-
-ab Parameter, Parameter, Parameter, Parameter, Parameter, Parameter, Parameter, Parameter, Parameter, Parameter, Parameter, Parameter, Parameter, 
+\subsubsection{Rollenmodell: Administrator, Arzt, Patient}
+\ldots
+\subsubsection{Rechteverwaltung}
+\ldots
+\subsection{Patientenverwaltung}
+\subsubsection{Erstellung und Verwaltung durch Ärzte}
+\ldots
+\subsubsection{Patientenlisten und Archivierung}
+\ldots
+\subsection{Datenverwaltung}
+\subsubsection{Upload medizinischer MRT-Daten}
+\ldots
+\subsubsection{Speicherung im DICOM- und Punktwolkenformat}
+\ldots
+\subsection{MRT-Daten-Umwandlung}
+\subsubsection{Python-basierte Konvertierung in .obj Format}
+\ldots
+\subsubsection{Speicherung vom 3D-Objekt in .obj Format}
+\ldots
+\subsection{Meetingverwaltung}
+\subsubsection{Erstellung und Planung von Meetings}
+\ldots
+\subsubsection{Starten geplanter Meetings und Beitrittscodegenerierung}
+\ldots
+\subsubsection{Email-Versand von Beitrittscodes}
+\ldots
+\subsection{VR-Ansicht}
+\subsubsection{Integration des 3D-Objekts in Unity}
+\ldots
+\subsubsection{Darstellung und Steuerung in der VR-Umgebung}
+\ldots
+\subsection{Echtzeit-Audioübertragung}
+\subsubsection{Voice-Chat Implementierung}
+\ldots
+\subsubsection{Einschränkungen}
+\ldots
